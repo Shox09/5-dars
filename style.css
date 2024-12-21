@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.left-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left img {
+  width: 268px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #737373;
+}
+
+@media screen and (max-width: 1279px) {
+  .right {
+    display: none;
+  }
+
+  .left-right {
+    padding: 10px;
+    gap: 0;
+  }
+}
+
+main {
+  padding-top: 50px;
+}
+
+.text-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text h1 {
+  font-size: 40px;
+  font-weight: 131px;
+  color: #000000;
+}
+
+.text button {
+  width: 141px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(95.2deg, #d4145a 2.23%, #2e3192 99.51%);
+  margin-top: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+@media screen and (max-width: 769px) {
+  .text{
+    font-size: 40px;
+  }
+  .img{
+    width: 368px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    background-image: url("./подложка\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+.h1 h1{
+  text-align: center;
+}
+
+.cards{
+  margin-top: 50px;
+}
+
+
+.left1-center-right1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left1{
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 20px black;
+  width: 344px;
+}
+
+.left1 h1{
+  padding: 10px;
+}
+
+.left1 p{
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.center{
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 20px black;
+  width: 344px;
+}
+
+.center h1{
+  padding: 10px;
+}
+
+.center p{
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.right1{
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 20px black;
+  width: 344px;
+  border-radius: 10px;
+}
+
+.right1 h1{
+  padding: 10px;
+}
+
+.right1 p{
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+@media  (max-width: 769px) {
+
+  .left1{
+    width: calc(594px);    
+  }
+
+  .left1 img{
+    width: 100%;
+    height: 189px;
+  }
+
+    .center{
+    width: calc(594px);    
+  }
+
+  .center img{
+    width: 100%;
+    height: 189px;
+  }
+
+    .right1{
+    width: calc(594px);    
+  }
+
+  .right1 img{
+    width: 100%;
+    height: 189px;
+  }
+
+}
+
+
+.flex-container2{
+  margin-top: 90px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: pink;
+  border-radius: 20px;
+  width: 1250px;
+  height: 357px;
+  gap: 20px;
+  position: relative;
+}
+
+.boxs{
+  width: 438px;
+  height: 187px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.boxs img{
+  position: absolute;
+  top: 0px;
+}
+
+.boxs p{
+  margin-top: 60px;
+}
